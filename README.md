@@ -2,7 +2,7 @@
 This repo provides the official implementation of our paper:
 > [**Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716520)
 
-- [Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval]
+- Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval
   - [ℹ️ Introduction](#ℹ️-introduction)
   - [🎯 Getting Start](#-getting-start)
     - [Project Files](#project-files)
@@ -25,6 +25,37 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 
 ## 🎯 Getting Start
 ### Project Files
+
+```
+.
+├── checkpoint
+│   ├── full_rsicd
+│       │   ├── checkpoint_49.pth
+│       │   ├── checkpoint_best.pth
+│       │   ├── config.yaml
+│       │   └── log.txt
+│       └── full_rsitmd
+│           ├── checkpoint_49.pth
+│           ├── checkpoint_best.pth
+│           ├── config.yaml
+│           └── log.txt
+├── configs
+│   ├── config_bert.json
+│   ├── config_swinT_224.json
+│   ├── Retrieval_rsicd.yaml
+│   └── Retrieval_rsitmd.yaml
+├── data
+├── dataset
+├── models
+├── utils
+├── mytools.py
+├── optim.py
+├── Pretrain.py
+├── Retrieval.py
+├── run.py
+├── scheduler.py
+└── requirements.txt
+```
 
 
 ### Environments
