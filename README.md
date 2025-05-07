@@ -1,6 +1,6 @@
 # Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval
 This repo provides the official implementation of our paper:
-> [**Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716520)
+> [**Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval (JSTARS, 2024)**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716520)
 
 - Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval
   - [ℹ️ Introduction](#ℹ️-introduction)
