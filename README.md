@@ -94,7 +94,7 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 
 
 ### Environments
-
+Run cmd as follow to prepare the environments:
 ```bash
 pip install -r requirements.txt
 ```
@@ -109,7 +109,7 @@ Our experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree
 
 ## 🙏 Acknowledgement
 
-- Basic code to thank [PIR](https://github.com/Zjut-MultimediaPlus/PIR-pytorch) 
+- Basic code to thank [PIR](https://github.com/Zjut-MultimediaPlus/PIR-pytorch) .
 
 ## 📝 Citation
 ```bibtex
