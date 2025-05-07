@@ -27,34 +27,103 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 ### Project Files
 
 ```
-.
-├── checkpoint
-│   ├── full_rsicd
-│       │   ├── checkpoint_49.pth
-│       │   ├── checkpoint_best.pth
-│       │   ├── config.yaml
-│       │   └── log.txt
-│       └── full_rsitmd
-│           ├── checkpoint_49.pth
-│           ├── checkpoint_best.pth
-│           ├── config.yaml
-│           └── log.txt
-├── configs
-│   ├── config_bert.json
-│   ├── config_swinT_224.json
-│   ├── Retrieval_rsicd.yaml
-│   └── Retrieval_rsitmd.yaml
-├── data
-├── dataset
-├── models
-├── utils
-├── mytools.py
-├── optim.py
-├── Pretrain.py
-├── Retrieval.py
-├── run.py
-├── scheduler.py
-└── requirements.txt
+│  .DS_Store
+│  .gitattributes
+│  .gitignore
+│  file_tree.txt
+│  LICENSE
+│  mytools.py
+│  optim.py
+│  Pretrain.py
+│  README.md
+│  requirements.txt
+│  Retrieval.py
+│  run.py
+│  scheduler.py
+│  show_model.py
+│  
+├─.ipynb_checkpoints     
+├─assets
+├─checkpoint
+│  ├─.ipynb_checkpoints
+│  ├─rsicd
+│  │  ├─.ipynb_checkpoints
+│  │  ├─test
+│  │  │  │  config.yaml
+│  │  │  │  
+│  │  │  └─.ipynb_checkpoints
+│  │  │          config-checkpoint.yaml
+│  │  │          
+│  │  └─train
+│  │      │  checkpoint_best.pth
+│  │      │  config.yaml
+│  │      │  log.txt
+│  │      │  
+│  │      └─.ipynb_checkpoints
+│  └─rsitmd
+│      ├─.ipynb_checkpoints
+│      ├─test
+│      │      config.yaml
+│      │      
+│      └─train
+│          │  checkpoint_19.pth
+│          │  checkpoint_best.pth
+│          │  config.yaml
+│          │  log.txt
+│          │  
+│          └─.ipynb_checkpoints
+├─configs
+│  │  config_bert.json
+│  │  config_swinT_224.json
+│  │  Retrieval_rsicd.yaml
+│  │  Retrieval_rsitmd.yaml
+│  │  Retrieval_sydney.yaml
+│  │  Retrieval_ucm.yaml
+│  │  
+│  └─.ipynb_checkpoints
+├─dataset
+│  │  dist_dataset.py
+│  │  grounding_dataset.py
+│  │  nlvr_dataset.py
+│  │  pretrain_dataset.py
+│  │  randaugment.py
+│  │  re_dataset.py
+│  │  utils.py
+│  │  __init__.py
+│  ├─.ipynb_checkpoints
+│  └─__pycache__
+│          
+├─fix_data
+│  └─rsitmd_precomp
+├─models
+│  │  bert.py
+│  │  bigru.py
+│  │  fisvl.py
+│  │  model_retrieval.py
+│  │  mytools.py
+│  │  resnet.py
+│  │  swin_transformer.py
+│  │  tokenization_bert.py
+│  │  vit.py
+│  │  __init__.py
+│  │  
+│  ├─.ipynb_checkpoints
+│  └─__pycache__
+│          
+├─utils
+│  │  .DS_Store
+│  │  checkpointer.py
+│  │  hdfs_io.py
+│  │  torch_io.py
+│  │  __init__.py
+│  │  
+│  ├─.ipynb_checkpoints
+│  └─cider
+└─__pycache__
+        optim.cpython-38.pyc
+        scheduler.cpython-38.pyc
+
+
 ```
 
 
