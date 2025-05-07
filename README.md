@@ -26,61 +26,33 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 ## 🎯 Getting Start
 ### Project Files
 
-```
-│  .DS_Store
-│  .gitattributes
-│  .gitignore
-│  file_tree.txt
-│  LICENSE
-│  mytools.py
-│  optim.py
-│  Pretrain.py
-│  README.md
-│  requirements.txt
-│  Retrieval.py
-│  run.py
-│  scheduler.py
-│  show_model.py
-│  
-├─.ipynb_checkpoints     
-├─assets
+``` 
 ├─checkpoint
 │  ├─.ipynb_checkpoints
 │  ├─rsicd
 │  │  ├─.ipynb_checkpoints
 │  │  ├─test
-│  │  │  │  config.yaml
-│  │  │  │  
-│  │  │  └─.ipynb_checkpoints
-│  │  │          config-checkpoint.yaml
-│  │  │          
+│  │  │  └─ config.yaml      
 │  │  └─train
 │  │      │  checkpoint_best.pth
 │  │      │  config.yaml
-│  │      │  log.txt
-│  │      │  
-│  │      └─.ipynb_checkpoints
+│  │      └─ log.txt
 │  └─rsitmd
 │      ├─.ipynb_checkpoints
 │      ├─test
 │      │      config.yaml
-│      │      
 │      └─train
 │          │  checkpoint_19.pth
 │          │  checkpoint_best.pth
 │          │  config.yaml
-│          │  log.txt
-│          │  
-│          └─.ipynb_checkpoints
+│          └─ log.txt
 ├─configs
 │  │  config_bert.json
 │  │  config_swinT_224.json
 │  │  Retrieval_rsicd.yaml
 │  │  Retrieval_rsitmd.yaml
 │  │  Retrieval_sydney.yaml
-│  │  Retrieval_ucm.yaml
-│  │  
-│  └─.ipynb_checkpoints
+│  └─ Retrieval_ucm.yaml
 ├─dataset
 │  │  dist_dataset.py
 │  │  grounding_dataset.py
@@ -89,10 +61,7 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 │  │  randaugment.py
 │  │  re_dataset.py
 │  │  utils.py
-│  │  __init__.py
-│  ├─.ipynb_checkpoints
-│  └─__pycache__
-│          
+│  └─ __init__.py 
 ├─fix_data
 │  └─rsitmd_precomp
 ├─models
@@ -105,25 +74,22 @@ We verify the validity of the model on the RSICD and RSITMD datasets. The result
 │  │  swin_transformer.py
 │  │  tokenization_bert.py
 │  │  vit.py
-│  │  __init__.py
-│  │  
-│  ├─.ipynb_checkpoints
-│  └─__pycache__
-│          
+│  └─ __init__.py
 ├─utils
 │  │  .DS_Store
 │  │  checkpointer.py
 │  │  hdfs_io.py
 │  │  torch_io.py
 │  │  __init__.py
-│  │  
-│  ├─.ipynb_checkpoints
-│  └─cider
-└─__pycache__
-        optim.cpython-38.pyc
-        scheduler.cpython-38.pyc
-
-
+│  mytools.py
+│  optim.py
+│  Pretrain.py
+│  README.md
+│  requirements.txt
+│  Retrieval.py
+│  run.py
+│  scheduler.py
+└─show_model.py  
 ```
 
 
@@ -143,7 +109,7 @@ Our experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree
 
 ## 🙏 Acknowledgement
 
-- Basic code to thank [X-VLM](https://github.com/zengyan-97/X-VLM) 
+- Basic code to thank [PIR](https://github.com/Zjut-MultimediaPlus/PIR-pytorch) 
 
 ## 📝 Citation
 ```bibtex
