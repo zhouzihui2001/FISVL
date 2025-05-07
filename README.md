@@ -100,9 +100,23 @@ pip install -r requirements.txt
 ```
 
 ### Train
-
+Train on the RSICD dataset:
+```
+python run.py --task 'itr_rsicd' --dist "f2" --config 'configs/Retrieval_rsicd.yaml' --output_dir 'checkpoint/rsicd/train'
+```
+Train on the RSITMD dataset:
+```
+python run.py --task 'itr_rsitmd' --dist "f2" --config 'configs/Retrieval_rsitmd.yaml' --output_dir 'checkpoint/rsitmd/train'
+```
 ### Test
-
+Test on the RSICD dataset:
+```
+python run.py --task 'itr_rsicd' --dist "f2" --config 'configs/Retrieval_rsicd.yaml' --output_dir 'checkpoint/rsicd/test' --checkpoint 'checkpoint/rsicd/train/checkpoint_best.pth' --evaluate
+```
+Test on the RSITMD dataset:
+```
+python run.py --task 'itr_rsitmd' --dist "f2" --config 'configs/Retrieval_rsitmd.yaml' --output_dir 'checkpoint/rsitmd/test' --checkpoint 'checkpoint/rsitmd/train/checkpoint_best.pth' --evaluate
+```
 ## 🌎 Datasets
 
 Our experiments are based on [RSITMD](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD) and [RSICD](https://github.com/201528014227051/RSICD_optimal) datasets.
