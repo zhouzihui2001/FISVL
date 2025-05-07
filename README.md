@@ -1,6 +1,6 @@
 # Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval
 This repo provides the official code of our paper:
-> [**Fine-Grained Information Supplementation and Value-Guided Learning for Remote Sensing Image-Text Retrieval**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716520)
+> [**GenArtist: Multimodal LLM as an Agent for Unified Image Generation and Editing**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716520),
 
 We propose a fine-grained information supplementation and value-guided learning (FISVL) model. Feature enhancement is carried out by integrating the prior knowledge in the field of recommendation systems, and a value-oriented training strategy is adopted to learn feature representations that are fine-grained, highly expressive and robust. Specifically, FISVL contains the following core modules:
 1. ​**fine-grained information supplementation (FGIS)​**: By fusing the visual information of global and local features, the perception ability of the model for multi-scale features of remote sensing images is enhanced, and the problem of representation limitations caused by insufficient feature granularity in traditional methods is solved.

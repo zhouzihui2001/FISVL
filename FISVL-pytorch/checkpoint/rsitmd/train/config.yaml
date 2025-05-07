@@ -1,0 +1,35 @@
+alpha_m: 2
+batch_size_test: 128
+batch_size_test_text: 128
+batch_size_train: 128
+beta1: -0.0015
+beta2: 0.02
+center_factor: 1
+dataset_kind: re_rsitmd
+deletion_rate: 0.03
+dropout_r: 0.2
+embed_dim: 512
+finetune_conv: false
+image_res: 224
+image_root: ../../data/RSITMD/images/
+img_gcn_step: 2
+is_baseline: false
+k_test: 512
+max_tokens: 47
+optimizer: {lr: 6e-05, lr_mult: 2, opt: adamW, weight_decay: 0.01}
+patch_size: 32
+resnet_ckpt: ../../fs/aid_28-rsp-resnet-50-ckpt.pth
+scene_factor: 1
+schedular: {epochs: 20, lr: 6e-05, num_warmup_steps: 0.1, sched: linear}
+temp1: 0.07
+temp2: 0.07
+test_file: ../../fs/finetune/rsitmd_test.json
+text_config: configs/config_bert.json
+text_encoder: ../../fs/bert-base-uncased
+train_file: [../../fs/finetune/rsitmd_train_length_avg_0_7_low_0_95.json]
+use_affil_loss: true
+use_scene_loss: true
+use_swin: true
+use_triplet_loss: false
+val_file: ../../fs/finetune/rsitmd_val.json
+vision_config: configs/config_swinT_224.json
